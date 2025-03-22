@@ -27,9 +27,9 @@
   <div id="output" class="middle-screen text-bold"></div>
   <div id="output2" class="middle-screen text-bold"></div>
 
-  <script type="module">
-    import { helloWorld , secondFunction} from './main.js';
-
+  <script type="module">  
+   import { helloWorld, loadLogin, secondFunction } from './main.js';
+   loadLogin();
     // Render the function output into the DOM
     const output = document.getElementById('output');
     output.textContent = helloWorld() + ' | ' + secondFunction('Second says hi!');
