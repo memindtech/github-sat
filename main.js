@@ -1,6 +1,10 @@
 function helloWorld () {
-  return "Hellow Holiday"
+  return "Hello Holiday"
 }
 
-export { helloWorld }
+function secondFunction (text) {
+  return text;
+}
+
+export { helloWorld, secondFunction }
 
