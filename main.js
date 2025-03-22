@@ -23,8 +23,11 @@ async function loadLogin() {
 }
 
 function helloWorld () {
-  return "Hellow Holiday"
+  return "Hello Holiday"
 }
 
-export { helloWorld, loadLogin }
+function secondFunction (text) {
+  return text;
+}
 
+export { helloWorld, loadLogin, secondFunction }
