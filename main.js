@@ -1,7 +1,6 @@
-export {
-  function helloWorld () {
-    return "Hellow Holiday"
-  }
-
-  return { helloWorld }
+function helloWorld () {
+  return "Hellow Holiday"
 }
+
+export { helloWorld }
+
