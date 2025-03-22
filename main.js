@@ -1,6 +1,6 @@
 export {
   function helloWorld () {
-    return "Hellow"
+    return "Hellow Holiday"
   }
 
   return { helloWorld }
