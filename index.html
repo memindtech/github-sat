@@ -5,8 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Document</title>
 </head>
+
+<style>
+    body {
+      background-color: #404040;
+      color: #fff;
+    }
+    .middle-screen{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .text-bold{
+      font-weight: bold;
+      font-size: 50px;
+    }
+</style>
 <body>
-  <div id="output"></div>
+  <div id="output" class="middle-screen text-bold"></div>
 
   <script type="module">
     import { helloWorld } from './main.js';
